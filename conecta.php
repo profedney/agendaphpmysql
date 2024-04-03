@@ -1,12 +1,12 @@
 <?php
 // Configurações do banco de dados
-$servername = "localhost";
-$username = "seu_usuario";
-$password = "sua_senha";
-$dbname = "sua_base_de_dados";
+$server = "localhost";
+$username = "escola";
+$password = "123";
+$dbname = "escola";
 
 // Conexão com o banco de dados
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($server, $username, $password, $dbname);
 
 // Verifica a conexão
 if ($conn->connect_error) {
