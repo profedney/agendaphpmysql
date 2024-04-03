@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Agenda de Contatos">
     <meta name="keywords" content="agenda, contatos, telefones">
-    <meta name="author" content="prof. EDney Rossi">
+    <meta name="author" content="Seu Nome">
 
     <link rel="stylesheet" href="style.css">
 
@@ -17,14 +17,16 @@
     </header>
 
     <main>
-        <button id="consultar">Consultar</button>
-        <div id="resultado"></div>
+        <form action="consultar.php" method="post">
+            <input type="submit" value="Consultar">
+        </form>
+        <div id="resultado">
+            <?php include "consultar.php"; ?>
+        </div>
     </main>
 
     <footer>
-        <p>Desenvolvido por: prof. Edney Rossi</p>
+        <p>Desenvolvido por: Seu Nome</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
