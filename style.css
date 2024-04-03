@@ -11,6 +11,11 @@ header {
     text-align: center;
 }
 
+#logo{
+    width: 50px;
+    height: auto;
+}
+
 main {
     padding: 20px;
 }
