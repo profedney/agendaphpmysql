@@ -14,7 +14,7 @@
 <body>
     <header>
         <img id="logo" src="agenda.png" alt="" srcset="">
-        <h1>Agenda PHP e MySQL</h1>
+        <h1>Cadastro novo contato</h1>
         <nav>
             | 
             <a href="index.php">Consulta</a> |
@@ -27,7 +27,14 @@
 
     <main>
         <div id="resultado">
-            <?php include "consultar.php"; ?>
+        <form action="">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" ><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone"><br><br>
+            <input type="submit" value="Cadastrar">
+        </form> 
+            
         </div>
     </main>
 
